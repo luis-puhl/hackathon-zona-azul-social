@@ -7,8 +7,8 @@
         <vl-feature v-if="geoloc.position" id="position-feature">
           <vl-geom-point :coordinates="geoloc.position"></vl-geom-point>
           <vl-style-circle :radius="5">
-
-            </vl-style-circle>
+            <!-- fill -->
+          </vl-style-circle>
         </vl-feature>
       </template>
     </vl-geoloc>
