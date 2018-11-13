@@ -30,6 +30,7 @@
 
 <script>
   export default {
+    name: 'SimpleOSM',
     data () {
       return {
         zoom: 2,
